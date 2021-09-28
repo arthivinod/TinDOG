@@ -1,2 +1,1 @@
-# TinDOG
-A webpage designed with HTML &amp; CSS
+TinDog Starting Files

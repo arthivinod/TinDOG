@@ -1,0 +1,201 @@
+body{
+    font-family: 'Montserrat-black 900', sans-serif;
+    text-align: center;
+}
+
+#title{
+   
+    text-align: left;
+}
+.i{
+   color: #ff4c68;
+}
+
+#cta{
+   
+   
+    padding: 7% 15% ;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-black 900', sans-serif;
+    }
+
+
+p{
+    color: grey;
+}
+
+/* Heading */
+.big-heading{
+    font-family: 'Montserrat-black 900', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-sec{
+
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.white-sec{
+
+    background-color: #ffffff;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-nav{
+    margin-right: 100px;
+}
+.nav-item{
+    text-align: right;
+    padding: 0 18px;
+
+}
+.navbar-brand {
+    
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+ .button-download {
+
+    padding:10px 10px 10px;
+    margin:5% 3% 2% 0;
+
+ }
+
+ .doggy{
+     width:20%;
+     transform: rotate(25deg);
+     position:absolute;
+     right:30%;
+ }
+   
+ /* Features Sectioin */
+  
+ #features{
+     padding: 7% 15%;
+    
+     position: relative;
+    
+ }
+
+ .feature-box{
+
+     padding:5%;
+ }
+
+ .icon{
+     color:#ff4c68;
+     margin-bottom: 1rem;
+ }
+
+ .icon:hover{
+     color:#ef8172;
+ }
+
+
+ /* Testimonial section */
+
+ #testimonials{
+     padding: 7% 15% ;
+    background-color: #ef8172;
+    
+ }
+
+  .testimonial-text{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+ }
+
+ .testimonial-image {
+    width: 12%;
+    margin:20px;
+    border-radius: 100%;
+ }
+
+ #press{
+     background-color: #ef8172;
+     
+     padding-bottom: 3%;
+ }
+
+ .pr{
+     width:10%;
+     margin:20px 20px 30px;
+ }
+
+ /* Pricing Section */
+
+ #pricing{
+     padding:100px;
+     
+ }
+
+
+
+ .price-text{
+    font-size: 3rem;
+    
+    line-height: 1.5;
+
+ }
+
+ .feature-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+ }
+
+ .pri-col{
+     padding: 3% 2%;
+ }
+
+ @media (max-width:1050px) {
+
+    #title{
+       
+    }
+
+    .doggy{
+        position: static;
+        transform: rotate(0);
+        width:50%;
+    }
+ }
+
+
+ /* Footer section */
+
+ #footer{
+   
+     padding:7% 15%;
+ }
+
+ .f-icon{
+     padding:20px 10px;
+     }
